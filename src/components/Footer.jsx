@@ -1,22 +1,21 @@
 import React from "react";
-import { Separator } from "./ui/Separator";
 
 // Social media icons data
 const socialIcons = [
   {
-    src: "public/group-1.png",
-    wrapper: "public/vector-1.svg",
+    src: "/images/group-1.png",
+    wrapper: "/images/vector-1.svg",
     alt: "Social Icon 1",
   },
-  { src: "public/icon.svg", alt: "Social Icon 2" },
-  { src: "public/group-2.png", alt: "Social Icon 3" },
-  { src: "public/icon-1.svg", alt: "Social Icon 4" },
+  { src: "/images/icon.svg", alt: "Social Icon 2" },
+  { src: "/images/group-2.png", alt: "Social Icon 3" },
+  { src: "/images/icon-1.svg", alt: "Social Icon 4" },
   {
-    src: "public/group-3.png",
-    wrapper: "public/vector.svg",
+    src: "/images/group-3.png",
+    wrapper: "/images/vector.svg",
     alt: "Social Icon 5",
   },
-  { src: "public/group.png", alt: "Social Icon 6" },
+  { src: "/images/group.png", alt: "Social Icon 6" },
 ];
 
 const Footer = () => {
@@ -28,7 +27,7 @@ const Footer = () => {
             Terms &amp; Conditions
           </span>
 
-          <Separator orientation="vertical" className="h-6" />
+          {/* Removed the Separator component */}
 
           <span className="text-dark-40 text-lg tracking-[-0.54px] leading-[23.4px] font-['Poppins',Helvetica] font-normal whitespace-nowrap">
             Privacy Policy
